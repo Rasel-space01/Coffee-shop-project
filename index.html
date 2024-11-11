@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Web site!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="flex justify-between bg-orange-900 p-4 sticky  top-0">
+        <div class="flex pl-20  space-x-3">
+            <i class="fa-solid fa-mug-hot text-2xl text-orange-500"></i>
+            <h1 class="italic font-bold text-2xl text-white">coffee cafe</h1>
+        </div>
+        <ul class="flex space-x-8 text-white pr-20 font-medium">
+            <li><a href="#">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#About">About</a></li>
+            <button class="space-x-3 p-1 pr-2 pl-2 rounded-full bg-orange-700">Order <i class="fa-solid fa-mug-hot"></i></button>
+        </ul>
+    </nav>
+    <footer class="bg-orange-950 h-[520px] flex">
+        <div class="w-[560px] pl-28 pt-32">
+            <h1 class="text-white font-bold text-5xl pb-6">
+                We serve the <br>richest <b class="italic text-orange-700">Coffee</b> in <br> the city
+            </h1>
+            <button class="text-white border border-white font-medium pr-2 pl-2 p-1 rounded-full bg-orange-800">Coffee And Code</button>
+        </div>
+        <div class="ml-16">
+            <button class="text-white  p-2 pr-2 pl-2  mt-16 ml-8 rounded-full font-semibold   bg-orange-800 ">Hey Coder</button>
+            <img class="  object-cover pl-20 " src="https://png.pngtree.com/png-vector/20240623/ourmid/pngtree-flying-cup-of-coffee-with-splash-and-png-image_12831547.png" alt="">
+            <button class="text-white ml-[400px]  bg-orange-800 p-2 pr-2 pl-2 rounded-full">Best Coffee</button>
+        </div>
+    </footer>
+    <div id="About">
+        <main class="mt-28">
+            <h1 class="text-center pb-6 italic font-bold text-5xl">Best offee For You</h1>
+            <div class="flex max-w-6xl mx-auto justify-between">
+                <div class="w-[296px]  text-center justify-items-center shadow-2xl rounded-xl">
+                    <img class="h-[190px] w-[190px] object-cover " src="https://png.pngtree.com/png-clipart/20240115/original/pngtree-coffee-3d-teacup-element-three-dimensional-buckle-free-pattern-png-image_14119665.png" alt="">
+                    <p class="font-semibold text-2xl p-4">Espresso</p>
+                    <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reiciendis ratione officiis at modi...</p>
+                </div>
+                <div class="w-[296px]  text-center justify-items-center shadow-2xl rounded-xl">
+                    <img class="h-[190px] w-[190px] object-cover " src="https://static.vecteezy.com/system/resources/previews/022/687/311/non_2x/coffee-cup-3d-realistic-free-download-free-png.png" alt="">
+                    <p class="font-semibold text-2xl p-4">Americano</p>
+                    <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reiciendis ratione officiis at modi...</p>
+                </div>
+                <div class="w-[296px] text-center justify-items-center shadow-2xl rounded-xl">
+                    <img class="h-[190px] w-[190px] object-cover " src="https://static.vecteezy.com/system/resources/thumbnails/021/049/268/small_2x/3d-realistic-coffee-cup-coffee-cup-cartoon-free-png.png" alt="">
+                    <p class="font-semibold text-2xl p-4">Cappuccion</p>
+                    <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reiciendis ratione officiis at modi...</p>
+                </div>
+            </div>
+        </main >
+    </div>
+    <div id="Services">
+        <section class="bg-[url(https://png.pngtree.com/thumb_back/fh260/background/20210915/pngtree-geometric-pattern-white-gold-minimalist-creative-background-image_879782.jpg)] bg-no-repeat bg-cover h-[480px] mt-20 rounded-tr-[120px] rounded-bl-[140px] flex">
+            <div class="w-[540px] ">
+                <img class="pt-20 pl-36" src="https://png.pngtree.com/png-vector/20240823/ourmid/pngtree-black-coffee-cup-with-beans-transparent-free-download-png-image_13596381.png" alt="">
+            </div>
+            <div class="mt-24 ml-32">
+                <div>
+                    <h1 class="italic font-bold text-4xl">Premium Blend Coffee</h1>
+                    <p class="pt-4 pb-4 text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt iste consequatur voluptatibus aspernatur!</p>
+                </div>
+                <div class="flex ">
+                    <div class="space-y-4 pr-16 text-lg">
+                        <i class="fa-solid fa-unlock text-orange-400 text-2xl "> </i>
+                    <b class="pl-3">Premium Coffee</b><br>
+                    <i class="fa-solid fa-mug-hot text-orange-400 text-2xl"></i>
+                    <b class="pl-3">Hot Coffee</b><br>
+                    <i class="fa-solid fa-mug-saucer text-orange-400 text-2xl"></i>
+                    <b class="pl-3">Cold Coffee</b>
+                    </div>
+                    <div class="border-l-4 border-l-orange-300 pl-12">
+                        <h1 class="italic font-bold text-2xl pb-2">Tea Lover</h1>
+                        <p>Much like writing code, brewing the <br> perfect cup of tea req89res patience, <br>precision, and a dash of passopm to <br> create a comforting blend of flavors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="bg-[url(https://images8.alphacoders.com/939/939996.jpg)] bg-no-repeat bg-cover bg-center  justify-center h-[260px] pl-36">
+        <div>
+            <h1 class="text-white font-bold text-4xl pt-12 pb-8">Coffee Cafe is available <br> for Android and IOS</h1>
+        </div>
+        <div class="flex space-x-4">
+            <img class="h-[60px] object-cover " src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="">
+            <img class="h-[60px] " src="https://1000logos.net/wp-content/uploads/2020/08/apple-app-store-logo.jpg" alt="">
+        </div>
+    </section>
+    <div id="Blog">
+        <section class="mt-32">
+            <h1 class="italic text-center font-bold text-4xl pb-16">Testimonials</h1>
+            <div class="flex max-w-6xl mx-auto justify-between">
+                <div class="w-[320px] bg-orange-200 p-6 rounded-xl">
+                    <img class="h-20 w-20 object-cover rounded-full" src="https://static.cdn.asset.aparat.com/avt/10005661-5170-b__7666.jpg" alt="">
+                    <p class="pt-6 pb-6 text-slate-700">Lorem ipsum dolor sit amet consect adipisicing elit. Aut numquam nobis nostrum suscipit assumenda?</p>
+                    <h2 class="text-xl font-bold">Sabir ali</h2>
+                </div>
+                <div class="w-[320px] bg-orange-200 p-6 rounded-xl">
+                    <img class="h-20 w-20 object-cover rounded-full" src="https://www.state.gov/wp-content/uploads/2018/11/Germany-2109x1406.jpg" alt="">
+                    <p class="pt-6 pb-6 text-slate-700">Lorem ipsum dolor sit amet consect adipisicing elit. Aut numquam nobis nostrum suscipit assumenda?</p>
+                    <h2 class="text-xl font-bold italic">Dipankar Kumar</h2>
+                </div>
+                <div class="w-[320px] bg-orange-200 p-6 rounded-xl">
+                    <img class="h-20 w-20 object-cover rounded-full" src="https://i.ytimg.com/vi/Qk30DJJO0AM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBljdwZxBCZPjSvMPRvZ-TAhacJ_A" alt="">
+                    <p class="pt-6 pb-6 text-slate-700">Lorem ipsum dolor sit amet consect adipisicing elit. Aut numquam nobis nostrum suscipit assumenda?</p>
+                    <h2 class="text-xl font-bold italic">Satya Narayan</h2>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="Contact">
+        <section class="flex bg-[url(https://www.best-coffee-things.com/images/RoastingCoffeeBeans.jpg)] bg-cover  h-[420px] mt-28 space-x-16 pl-20">
+            <div class="text-white pl-24 pt-28">
+                <h1 class="italic font-bold text-4xl pb-4">Coffee Cafe</h1>
+                <p class="font-medium pb-4">Crafted Coffee, Cozy Vibes, Unforgettable <br> Moments- Your Perfect Espresso Escape</p>
+                <button class="bg-orange-950 text-white font-medium p-2 pr-2 pl-2 rounded-full"><a href="https://www.youtube.com/">Visit YouTube Channel</a></button>
+            </div>
+            <div class="text-white  pt-28">
+                <h1 class="italic font-bold text-2xl pb-6">Important Links</h1>
+               <ul class="font-medium space-y-4">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+               </ul>
+            </div>
+            <div class="text-white  pt-28">
+                <h1 class="italic font-bold text-2xl pb-6">Quick Links</h1>
+                <ul class="font-medium space-y-4">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="text-white  pt-28">
+                <h1 class="italic font-bold text-2xl pb-6">
+                    Address
+                </h1>
+                <p class="pb-4 font-medium">Jamuna Future Park, Dhaka</p>
+                <p class="pb-4 font-medium">+8801781785236</p>
+                <p class="pb-4 font-medium">joybaidyabd@gmail.com</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
